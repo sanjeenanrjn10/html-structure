@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- <meta name="viewport" content="width=device-width, height=device-height,
+      initial-scale=1.0, minimum-scale=1.0"> -->
+    <style>
+      body {
+        margin: 0px;
+      }
+      .container{
+        background-color: aquamarine;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+      }
+      .header-section{
+        background-color: darkcyan;       
+        height: 10vh;
+      }
+      .nav-section{
+        background-color: olive;
+        height: 10vh;
+      }
+      .hori-section{
+        display: flex;
+        height: 70vh;
+        width: 100vw;
+        background-color: red;
+      }
+      .index-section{
+        background-color: violet;
+        width: 40vw;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .content-section{
+        background-color: green;
+        width: 60vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .footer-section{
+        background-color: purple;
+        height: 10vh;
+        position: absolute;
+        bottom: 0px; /* zero pixexl away from the bottom direction*/
+        /* right: 990; zero pixexl away from the right direction */
+        width: 100vw;
+      }
+      h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class=" header-section">
+        <h1>Header Section</h1>
+      </div>
+      <div class="nav-section">
+        <h1>Navigation Section</h1>
+      </div>
+      <div class="hori-secction">
+        <div class=" index-section">
+          <h1>Index Section</h1>
+        </div>
+        <div class="content-section">
+          <h1>Content Section</h1>
+        </div>
+      </div>
+      <div class=" footer-section">
+        <h1>Footer Section</h1>
+      </div>
+    </div>
+  </body>
+</html>
